@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.05rem;
+}
+.box {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: calc(100vw-1rem);
+}
+.nav-bar {
+  height: 20vh;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  color: green;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.2rem solid green;
+}
+.nav-img {
+  width: 8%;
+  height: auto;
+}
+.nav-img img {
+  width: 100%;
+  height: 100%;
+}
+.nav-msg {
+  width: 80%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  color: green;
+}
+.nav-msg b{
+  font-size: 1.8rem;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+}
+.int-cont {
+  margin: 0.25rem;
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+#branch {
+  margin-right: 3rem;
+}
+#sub-btn {
+  padding: 0.5rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5%;
+}
+.mem {
+  display: flex;
+  min-width: 625vw;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 450;
+  margin: 1rem;
+}
+.dbox {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+  margin: 1rem;
+}
+#data-nav {
+  min-width: 625vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+#data-img {
+  width: 5%;
+}
+#data-title {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+}
+.btn-box {
+  display: flex;
+  gap: 4rem;
+  margin: 1rem;
+}
+.opti,
+.edit-opt {
+  display: flex;
+  gap: 1rem;
+}
+#editdataTable {
+  width: 85vw;
+}
+.edit-box,
+.lcontainer {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.dubox {
+  margin: 1rem;
+  padding: 1rem;
+}
+.int-cont {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.btn-group
+{
+  margin-right: 5rem;
+  border-radius: 0.2rem;
+}
+.grp-opts
+{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.required
+{
+  color: red;
+  font-weight: bolder;
+}

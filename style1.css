@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.05rem;
+}
+.cont {
+  width: 100vw;
+  height: 100vh;
+}
+.nav-bar {
+  height: 20vh;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  color: green;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.2rem solid green;
+}
+#logo {
+  height: 100%;
+  width: 100%;
+}
+#myform label {
+  font-weight: bold;
+}
+.nav-img {
+  width: 8%;
+  height: auto;
+}
+.nav-img img {
+  width: 100%;
+  height: 100%;
+}
+.nav-msg {
+  width: 80%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  color: green;
+}
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+input[type="file"]::file-selector-button {
+  background-color: #2d9931;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+input[type="file"]::file-selector-button:hover {
+  background-color: blue;
+}
+.upld {
+  padding: 1rem;
+  width: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 1vw;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+.msgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+#sub {
+  width: 100%;
+  background-color: #2d9931;
+  color: white;
+  border: none;
+}
+#dow {
+  padding: 0.5rem;
+  background-color: #2d9931;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  margin-left: 4rem;
+}
+#sub:hover,
+#dow:hover {
+  background-color: green;
+}
+.nav-msg b {
+  font-size: 1.8rem;
+}
+#dwn {
+  display: flex;
+  align-items: center;
+}
+.login-box {
+  height: 72.5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 0.2rem solid green;
+}
+.admin-login {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-login {
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+.admin-form {
+  width: 60%;
+  height: 45%;
+}
+.user-form {
+  width: 60%;
+  height: 45%;
+}
+#ad-login,
+#us-login {
+  width: 100%;
+}
+.btn-grp {
+  height: 7.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#us-br {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+#us-br p {
+  margin-top: 1rem;
+}
+.upd-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+#upd-span p {
+  margin: 0;
+}
